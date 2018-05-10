@@ -3,7 +3,7 @@
 My little customize desert:desert: theme.
 
 ### JavaScript
-![](./javascript.png)
+![](./_javascript.png)
 
 ### C#
-![](./csharp.png)
+![](./_csharp.png)
