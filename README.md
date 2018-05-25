@@ -7,3 +7,4 @@ My little customize desert:desert: theme.
 
 ### C#
 ![](./_csharp.png)
+> install `eppz.eppz-code` and replace `./syntaxes/csharp.extended.tmLanguage` for extra syntax highlight

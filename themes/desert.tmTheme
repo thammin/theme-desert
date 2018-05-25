@@ -320,6 +320,17 @@
 				<string>#FF4500</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Special Keyword</string>
+			<key>scope</key>
+			<string>storage.modifier.unpublic.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e1e4a8</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>233F0694-0B9C-43E3-A44A-ECECF7DF6C74</string>
