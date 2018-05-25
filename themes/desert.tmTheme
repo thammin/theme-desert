@@ -324,11 +324,22 @@
 			<key>name</key>
 			<string>Special Keyword</string>
 			<key>scope</key>
-			<string>storage.modifier.unpublic.cs</string>
+			<string>storage.modifier.public.cs</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#e1e4a8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Special Keyword</string>
+			<key>scope</key>
+			<string>storage.modifier.unpublic.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b79165</string>
 			</dict>
 		</dict>
 	</array>
