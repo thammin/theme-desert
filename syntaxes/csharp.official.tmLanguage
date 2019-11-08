@@ -3,12 +3,12 @@
 <plist version="1.0">
   <dict>
     <key>name</key>
-    <string>C# (extended)</string>
+    <string>C# (official)</string>
     <key>scopeName</key>
-    <string>source.cs.extended</string>
+    <string>source.cs.official</string>
     <key>fileTypes</key>
     <array>
-      <string>extended</string>
+      <string>official</string>
     </array>
     <key>uuid</key>
     <string>f7de61e2-bdde-4e2a-a139-8221b179584e</string>
@@ -47,11 +47,11 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#using-directive</string>
+            <string>#using-directive</string>
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#attribute-section</string>
+            <string>#attribute-section</string>
           </dict>
           <dict>
             <key>include</key>
@@ -65,7 +65,7 @@
         <array>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#namespace-declaration</string>
+            <string>#namespace-declaration</string>
           </dict>
           <dict>
             <key>include</key>
@@ -113,18 +113,6 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>#storage-modifier-public</string>
-          </dict>
-          <dict>
-            <key>include</key>
-            <string>#storage-modifier-protected</string>
-          </dict>
-          <dict>
-            <key>include</key>
-            <string>#storage-modifier-private</string>
-          </dict>
-          <dict>
-            <key>include</key>
             <string>#class-declaration</string>
           </dict>
           <dict>
@@ -145,7 +133,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#attribute-section</string>
+            <string>#attribute-section</string>
           </dict>
           <dict>
             <key>include</key>
@@ -168,18 +156,6 @@
           <dict>
             <key>include</key>
             <string>#storage-modifier</string>
-          </dict>
-          <dict>
-            <key>include</key>
-            <string>#storage-modifier-public</string>
-          </dict>
-          <dict>
-            <key>include</key>
-            <string>#storage-modifier-protected</string>
-          </dict>
-          <dict>
-            <key>include</key>
-            <string>#storage-modifier-private</string>
           </dict>
           <dict>
             <key>include</key>
@@ -227,7 +203,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#attribute-section</string>
+            <string>#attribute-section</string>
           </dict>
           <dict>
             <key>include</key>
@@ -265,7 +241,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#attribute-section</string>
+            <string>#attribute-section</string>
           </dict>
           <dict>
             <key>include</key>
@@ -347,7 +323,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>using-statement</string>
+            <string>#using-statement</string>
           </dict>
           <dict>
             <key>include</key>
@@ -536,7 +512,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -566,7 +542,7 @@
               </dict>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
               <dict>
                 <key>include</key>
@@ -792,7 +768,7 @@
               </dict>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#using-directive</string>
+                <string>#using-directive</string>
               </dict>
               <dict>
                 <key>include</key>
@@ -808,27 +784,6 @@
         <string>storage.modifier.cs</string>
         <key>match</key>
         <string>(?&lt;!\.)\b(new|internal|abstract|virtual|override|sealed|static|partial|readonly|volatile|const|extern|async|unsafe)\b</string>
-      </dict>
-      <key>storage-modifier-public</key>
-      <dict>
-        <key>name</key>
-        <string>storage.modifier.public.cs</string>
-        <key>match</key>
-        <string>(?&lt;!\.)\b(public)\b</string>
-      </dict>
-      <key>storage-modifier-protected</key>
-      <dict>
-        <key>name</key>
-        <string>storage.modifier.protected.cs</string>
-        <key>match</key>
-        <string>(?&lt;!\.)\b(protected)\b</string>
-      </dict>
-      <key>storage-modifier-private</key>
-      <dict>
-        <key>name</key>
-        <string>storage.modifier.private.cs</string>
-        <key>match</key>
-        <string>(?&lt;!\.)\b(private)\b</string>
       </dict>
       <key>class-declaration</key>
       <dict>
@@ -952,7 +907,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -1043,7 +998,7 @@
                 <array>
                   <dict>
                     <key>include</key>
-                    <string>source.cs.extensions#type</string>
+                    <string>#type</string>
                   </dict>
                 </array>
               </dict>
@@ -1082,7 +1037,7 @@
               </dict>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#attribute-section</string>
+                <string>#attribute-section</string>
               </dict>
               <dict>
                 <key>include</key>
@@ -1357,7 +1312,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#attribute-section</string>
+            <string>#attribute-section</string>
           </dict>
         </array>
       </dict>
@@ -1379,7 +1334,7 @@
         <array>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#type</string>
+            <string>#type</string>
           </dict>
           <dict>
             <key>include</key>
@@ -1453,7 +1408,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#type</string>
+            <string>#type</string>
           </dict>
           <dict>
             <key>include</key>
@@ -1493,7 +1448,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -1563,7 +1518,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -1573,7 +1528,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
               <dict>
                 <key>include</key>
@@ -1644,7 +1599,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -1654,7 +1609,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
               <dict>
                 <key>include</key>
@@ -1731,7 +1686,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -1741,7 +1696,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
               <dict>
                 <key>include</key>
@@ -1832,7 +1787,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#attribute-section</string>
+            <string>#attribute-section</string>
           </dict>
           <dict>
             <key>include</key>
@@ -1890,7 +1845,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#attribute-section</string>
+            <string>#attribute-section</string>
           </dict>
           <dict>
             <key>include</key>
@@ -1938,7 +1893,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -1948,7 +1903,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
               <dict>
                 <key>include</key>
@@ -2156,7 +2111,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -2257,7 +2212,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -2951,7 +2906,7 @@
                     <array>
                       <dict>
                         <key>include</key>
-                        <string>source.cs.extensions#type</string>
+                        <string>#type</string>
                       </dict>
                     </array>
                   </dict>
@@ -3136,7 +3091,7 @@
                     <array>
                       <dict>
                         <key>include</key>
-                        <string>source.cs.extensions#type</string>
+                        <string>#type</string>
                       </dict>
                     </array>
                   </dict>
@@ -3399,7 +3354,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -3467,7 +3422,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -3708,7 +3663,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -3795,7 +3750,7 @@
         <array>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#type</string>
+            <string>#type</string>
           </dict>
         </array>
       </dict>
@@ -4455,7 +4410,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -4498,7 +4453,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -4536,7 +4491,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -4698,8 +4653,8 @@
               </dict>
               <key>2</key>
               <dict>
-                <key>name</key><string>variable.other.object.cs</string>
-                <key>patterns</key><array><dict><key>include</key><string>source.cs.extensions#variable-other-object</string></dict></array>
+                <key>name</key>
+                <string>variable.other.object.cs</string>
               </dict>
               <key>3</key>
               <dict>
@@ -4725,8 +4680,8 @@
             <dict>
               <key>1</key>
               <dict>
-                <key>name</key><string>variable.other.object.cs</string>
-                <key>patterns</key><array><dict><key>include</key><string>source.cs.extensions#variable-other-object</string></dict></array>
+                <key>name</key>
+                <string>variable.other.object.cs</string>
               </dict>
             </dict>
           </dict>
@@ -4779,7 +4734,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -4827,7 +4782,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -4866,7 +4821,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -4940,7 +4895,7 @@
               </dict>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#attribute-section</string>
+                <string>#attribute-section</string>
               </dict>
               <dict>
                 <key>name</key>
@@ -4966,7 +4921,7 @@
               </dict>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
               <dict>
                 <key>include</key>
@@ -5006,7 +4961,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#attribute-section</string>
+            <string>#attribute-section</string>
           </dict>
           <dict>
             <key>name</key>
@@ -5032,7 +4987,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#type</string>
+            <string>#type</string>
           </dict>
           <dict>
             <key>include</key>
@@ -5193,7 +5148,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -5352,7 +5307,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -5737,7 +5692,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#attribute-section</string>
+            <string>#attribute-section</string>
           </dict>
           <dict>
             <key>include</key>
@@ -5783,7 +5738,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -5891,7 +5846,7 @@
             <array>
               <dict>
                 <key>include</key>
-                <string>source.cs.extensions#type</string>
+                <string>#type</string>
               </dict>
             </array>
           </dict>
@@ -6008,7 +5963,7 @@
           </dict>
           <dict>
             <key>include</key>
-            <string>source.cs.extensions#type</string>
+            <string>#type</string>
           </dict>
           <dict>
             <key>include</key>

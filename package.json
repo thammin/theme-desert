@@ -11,6 +11,78 @@
         "Themes"
     ],
     "contributes": {
+        "languages": [
+			{
+				"id": "official",
+				"aliases": [
+					"C# (official)"
+				],
+				"extensions": [
+					".official"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "unity",
+				"aliases": [
+					"C# (Unity)"
+				],
+				"extensions": [
+					".unity"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "extensions",
+				"aliases": [
+					"C# (extensions)"
+				],
+				"extensions": [
+					".extensions"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "extended",
+				"aliases": [
+					"C# (extended)"
+				],
+				"extensions": [
+					".extended"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "csharp"
+			}
+		],
+		"grammars": [
+			{
+				"language": "official",
+				"scopeName": "source.cs.official",
+				"path": "./syntaxes/csharp.official.tmLanguage"
+			},
+			{
+				"language": "unity",
+				"scopeName": "source.cs.unity",
+				"path": "./syntaxes/source.cs.unity.json"
+			},
+			{
+				"language": "extensions",
+				"scopeName": "source.cs.extensions",
+				"path": "./syntaxes/source.cs.extensions.json"
+			},
+			{
+				"language": "extended",
+				"scopeName": "source.cs.extended",
+				"path": "./syntaxes/csharp.extended.tmLanguage"
+			},
+			{
+				"language": "csharp",
+				"scopeName": "source.cs",
+				"path": "./syntaxes/source.cs.json"
+			}
+		],
         "themes": [
             {
                 "label": "Thammin Desert",
